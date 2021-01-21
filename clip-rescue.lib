@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# AP2112K-3.3-Regulator_Linear
+# AP2112K-3.3-Regulator_Linear-clip_20200407-rescue
 #
-DEF AP2112K-3.3-Regulator_Linear U 0 10 Y Y 1 F N
+DEF AP2112K-3.3-Regulator_Linear-clip_20200407-rescue U 0 10 Y Y 1 F N
 F0 "U" -200 225 50 H V L CNN
-F1 "AP2112K-3.3-Regulator_Linear" 0 225 50 H V L CNN
+F1 "AP2112K-3.3-Regulator_Linear-clip_20200407-rescue" 0 225 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" 0 325 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 $FPLIST
@@ -21,11 +21,11 @@ X VOUT 5 300 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# USB_B_Micro-Connector
+# USB_B_Micro-Connector-clip_20200407-rescue
 #
-DEF USB_B_Micro-Connector J 0 40 Y Y 1 F N
+DEF USB_B_Micro-Connector-clip_20200407-rescue J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "USB_B_Micro-Connector" -200 350 50 H V L CNN
+F1 "USB_B_Micro-Connector-clip_20200407-rescue" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST

@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name clip_20200407-rescue)(type Legacy)(uri ${KIPRJMOD}/clip_20200407-rescue.lib)(options "")(descr ""))
+  (lib (name clip-rescue)(type Legacy)(uri ${KIPRJMOD}/clip-rescue.lib)(options "")(descr ""))
 )
