@@ -1,4 +1,4 @@
-update=3/17/2021 5:21:14 PM
+update=4/22/2021 2:40:04 PM
 version=1
 last_client=kicad
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=clip.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -58,7 +58,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0

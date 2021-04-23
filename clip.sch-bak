@@ -1046,7 +1046,7 @@ U 1 1 5EEDA133
 P 3900 1600
 F 0 "JP1" H 3900 1805 50  0000 C CNN
 F 1 "SJ" H 3900 1714 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3900 1600 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3900 1600 50  0001 C CNN
 F 3 "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf" H 3900 1600 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/w%C3%BCrth-elektronik/61301811121/732-5328-ND/4846858" H 3900 1600 50  0001 C CNN "Digikey_link"
 F 5 "732-5328-ND" H 3900 1600 50  0001 C CNN "Digikey"
@@ -1698,10 +1698,10 @@ U 1 1 5E93C6CC
 P 8000 1800
 F 0 "J2" H 8057 2267 50  0000 C CNN
 F 1 "USB_B_Micro" H 8057 2176 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Wuerth_614105150721_Vertical" H 8150 1750 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/614105150721.pdf" H 8150 1750 50  0001 C CNN
-F 4 "732-5958-1-ND" H 8000 1800 50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.de/product-detail/en/w%C3%BCrth-elektronik/614105150721/732-5958-1-ND/5047553" H 8000 1800 50  0001 C CNN "Digikey_link"
+F 2 "Connector_USB:USB_Micro-B_Wuerth_629105150521" H 8150 1750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/629105150521.pdf" H 8150 1750 50  0001 C CNN
+F 4 "732-5960-1-ND" H 8000 1800 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.de/product-detail/de/w%C3%BCrth-elektronik/629105150521/732-5960-1-ND/5047555" H 8000 1800 50  0001 C CNN "Digikey_link"
 F 6 "614105150721" H 8000 1800 50  0001 C CNN "Manufacturer"
 	1    8000 1800
 	1    0    0    -1  
@@ -16115,7 +16115,7 @@ U 1 1 60649048
 P 4950 4600
 F 0 "J5" H 5030 4642 50  0000 L CNN
 F 1 "Moisture" H 5030 4551 50  0000 L CNN
-F 2 "" H 4950 4600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 4950 4600 50  0001 C CNN
 F 3 "~" H 4950 4600 50  0001 C CNN
 	1    4950 4600
 	1    0    0    -1  
@@ -23399,7 +23399,7 @@ D0 56 7E FE 7E 09 09 5D BC BD BC 11 42 7D 7A F7 11 04 81 E7 05 84 50 60 60 A0 54
 EndData
 $EndBitmap
 Text GLabel 4450 4500 0    39   Input ~ 0
-IO25
+IO34
 Wire Wire Line
 	4750 4500 4450 4500
 $Comp
@@ -23420,14 +23420,14 @@ Wire Wire Line
 $Comp
 L power:+3.3V #PWR045
 U 1 1 606B7AF0
-P 4200 4600
-F 0 "#PWR045" H 4200 4450 50  0001 C CNN
-F 1 "+3.3V" H 4215 4773 50  0000 C CNN
-F 2 "" H 4200 4600 50  0001 C CNN
-F 3 "" H 4200 4600 50  0001 C CNN
-	1    4200 4600
-	0    -1   -1   0   
+P 4150 4600
+F 0 "#PWR045" H 4150 4450 50  0001 C CNN
+F 1 "+3.3V" H 4165 4773 50  0000 C CNN
+F 2 "" H 4150 4600 50  0001 C CNN
+F 3 "" H 4150 4600 50  0001 C CNN
+	1    4150 4600
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 4600 4200 4600
+	4750 4600 4150 4600
 $EndSCHEMATC
