@@ -14786,7 +14786,7 @@ F8 E6 91 48 B7 13 A0 C8 6C BF A3 44 02 7E 4E B4 65 23 D8 60 E2 FE 53 BB E1 E3 09
 EndData
 $EndBitmap
 Text Notes 594  2526 0    39   ~ 0
-Reference: SparkFun_ESP32_Thing_Plus/Adafruit MicroLipo\nCharge current:\nI_CHG = 1000 / R_PROG\nR_PROG=2K : I_CHG=500mA
+Reference: SparkFun_ESP32_Thing_Plus/Adafruit MicroLipo\nCharge current:\nI_CHG = 1000 / R_PROG\nR_PROG=1K : I_CHG=1000mA
 Text Notes 3604 2510 0    39   ~ 0
 Reference: SparkFun_ESP32_Thing_Plus\nVBUS - 6V MAX\nBATT - Single Cell (4.2V MAX)
 $Bitmap
@@ -22067,10 +22067,8 @@ D0 56 7E FE 7E 09 09 5D BC BD BC 11 42 7D 7A F7 11 04 81 E7 05 84 50 60 60 A0 54
 30 7B 49 3D 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text GLabel 4545 4285 0    39   Input ~ 0
-IO34
-Wire Wire Line
-	4845 4285 4545 4285
+Text GLabel 4580 4285 0    39   Input ~ 0
+ADC2
 $Comp
 L power:GND #PWR032
 U 1 1 606A62C8
@@ -22159,8 +22157,6 @@ Wire Notes Line
 	3496 5264 6820 5264
 Wire Notes Line
 	3500 6504 6820 6504
-Wire Notes Line
-	6820 5248 6820 6504
 Text Notes 3612 5376 0    50   ~ 0
 USB-To-TTL
 $Comp
@@ -22484,14 +22480,14 @@ Wire Wire Line
 	8590 3461 8590 3561
 Connection ~ 8590 3561
 $Comp
-L Connector_Generic:Conn_01x03 MOISTURE1
+L Connector_Generic:Conn_01x04 #MOISTURE1
 U 1 1 60649048
-P 5045 4385
-F 0 "MOISTURE1" H 5125 4427 50  0000 L CNN
-F 1 "MOISTURE" H 5125 4336 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 5045 4385 50  0001 C CNN
-F 3 "~" H 5045 4385 50  0001 C CNN
-	1    5045 4385
+P 5045 4285
+F 0 "#MOISTURE1" H 5125 4327 50  0000 L CNN
+F 1 "MOISTURE" H 5125 4236 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 5045 4285 50  0001 C CNN
+F 3 "~" H 5045 4285 50  0001 C CNN
+	1    5045 4285
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -22537,10 +22533,10 @@ F 6 "S2B-PH-K-S(LF)(SN)" H 850 1200 50  0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push BOOT1
+L Switch:SW_Push #BOOT1
 U 1 1 5E7E879F
 P 8340 3561
-F 0 "BOOT1" H 8340 3754 50  0000 C CNN
+F 0 "#BOOT1" H 8340 3754 50  0000 C CNN
 F 1 "Switch" H 8340 3461 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_B3U-1000P-B" H 8340 3761 50  0001 C CNN
 F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 8340 3761 50  0001 C CNN
@@ -22573,7 +22569,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 6200 2750 6200
 Text GLabel 2750 7000 2    39   Input ~ 0
-IO34
+ADC1
 Text GLabel 2750 6300 2    39   Input ~ 0
 SCL
 Text GLabel 2750 6200 2    39   Input ~ 0
@@ -22614,7 +22610,6 @@ NoConn ~ 1450 6200
 NoConn ~ 1450 6300
 NoConn ~ 1450 6400
 NoConn ~ 1450 6500
-NoConn ~ 2655 7100
 NoConn ~ 2650 6800
 NoConn ~ 2650 6700
 NoConn ~ 2650 6600
@@ -22699,7 +22694,7 @@ F 4 "https://www.digikey.de/product-detail/en/w%C3%BCrth-elektronik/61301811121/
 F 5 "732-5328-ND" H 6720 1340 50  0001 C CNN "Digikey"
 F 6 "61301811121" H 6720 1340 50  0001 C CNN "Manufacturer"
 	1    6720 1340
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	6720 1490 6720 1540
@@ -22754,4 +22749,108 @@ Text GLabel 6295 4035 0    39   Input ~ 0
 INT
 Wire Wire Line
 	6545 4035 6295 4035
+Text GLabel 4580 4185 0    39   Input ~ 0
+ADC1
+Wire Wire Line
+	4845 4185 4580 4185
+Wire Wire Line
+	4580 4285 4845 4285
+Text GLabel 6265 4405 0    39   Input ~ 0
+ADC1
+$Comp
+L power:GND #PWR0101
+U 1 1 60C960BA
+P 6230 4705
+F 0 "#PWR0101" H 6230 4455 50  0001 C CNN
+F 1 "GND" H 6235 4532 50  0000 C CNN
+F 2 "" H 6230 4705 50  0001 C CNN
+F 3 "" H 6230 4705 50  0001 C CNN
+	1    6230 4705
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6530 4605 6230 4605
+Wire Wire Line
+	6230 4605 6230 4705
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 60C960C6
+P 5930 4505
+F 0 "#PWR0102" H 5930 4355 50  0001 C CNN
+F 1 "+3.3V" H 5945 4678 50  0000 C CNN
+F 2 "" H 5930 4505 50  0001 C CNN
+F 3 "" H 5930 4505 50  0001 C CNN
+	1    5930 4505
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6530 4505 5930 4505
+$Comp
+L Connector_Generic:Conn_01x03 MOISTURE1
+U 1 1 60C960D1
+P 6730 4505
+F 0 "MOISTURE1" H 6810 4547 50  0000 L CNN
+F 1 "MOISTURE" H 6810 4456 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6730 4505 50  0001 C CNN
+F 3 "~" H 6730 4505 50  0001 C CNN
+	1    6730 4505
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6265 4405 6530 4405
+NoConn ~ 2650 7100
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60D3742D
+P 8165 5720
+F 0 "H1" H 8265 5766 50  0000 L CNN
+F 1 "MountingHole" H 8265 5675 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 8165 5720 50  0001 C CNN
+F 3 "~" H 8165 5720 50  0001 C CNN
+	1    8165 5720
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60D477A5
+P 7430 5720
+F 0 "H2" H 7530 5766 50  0000 L CNN
+F 1 "MountingHole" H 7530 5675 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 7430 5720 50  0001 C CNN
+F 3 "~" H 7430 5720 50  0001 C CNN
+	1    7430 5720
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60D47C68
+P 7420 6045
+F 0 "H4" H 7520 6091 50  0000 L CNN
+F 1 "MountingHole" H 7520 6000 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 7420 6045 50  0001 C CNN
+F 3 "~" H 7420 6045 50  0001 C CNN
+	1    7420 6045
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 60D47E70
+P 8170 6050
+F 0 "H3" H 8270 6096 50  0000 L CNN
+F 1 "MountingHole" H 8270 6005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 8170 6050 50  0001 C CNN
+F 3 "~" H 8170 6050 50  0001 C CNN
+	1    8170 6050
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	8995 5405 7140 5405
+Wire Notes Line
+	7140 5405 7140 6315
+Wire Notes Line
+	7140 6315 8995 6315
+Wire Notes Line
+	8995 5405 8995 6315
+Wire Notes Line
+	6820 5263 6820 6504
 $EndSCHEMATC
