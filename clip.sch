@@ -209,15 +209,15 @@ Sensors\n\n
 $Comp
 L Device:LED D4
 U 1 1 5E75A88B
-P 1900 2000
-F 0 "D4" V 1950 2100 50  0000 L CNN
-F 1 "Green" V 1850 2100 50  0000 L CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1900 2000 50  0001 C CNN
-F 3 "https://katalog.we-online.de/led/datasheet/150080GS75000.pdf" H 1900 2000 50  0001 C CNN
-F 4 "732-4983-1-ND" H 1900 2000 50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.de/product-detail/en/w%C3%BCrth-elektronik/150080GS75000/732-4983-1-ND/4489913" H 1900 2000 50  0001 C CNN "Digikey_link"
-F 6 "150080GS75000" H 1900 2000 50  0001 C CNN "Manufacturer"
-	1    1900 2000
+P 1900 1700
+F 0 "D4" V 1950 1800 50  0000 L CNN
+F 1 "Green" V 1850 1800 50  0000 L CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1900 1700 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150080GS75000.pdf" H 1900 1700 50  0001 C CNN
+F 4 "732-4983-1-ND" H 1900 1700 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.de/product-detail/en/w%C3%BCrth-elektronik/150080GS75000/732-4983-1-ND/4489913" H 1900 1700 50  0001 C CNN "Digikey_link"
+F 6 "150080GS75000" H 1900 1700 50  0001 C CNN "Manufacturer"
+	1    1900 1700
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -22235,15 +22235,15 @@ $EndComp
 $Comp
 L Device:R_US R4
 U 1 1 5E759248
-P 1900 1700
-F 0 "R4" H 1700 1650 50  0000 L CNN
-F 1 "1K" H 1750 1750 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1940 1690 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 1900 1700 50  0001 C CNN
-F 4 "P1.0KDACT-ND" H 1900 1700 50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.de/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1-0KDACT-ND/1465947" H 1900 1700 50  0001 C CNN "Digikey_link"
-F 6 "ERA-6AEB102V" H 1900 1700 50  0001 C CNN "Manufacturer"
-	1    1900 1700
+P 1900 2000
+F 0 "R4" H 1700 1950 50  0000 L CNN
+F 1 "1K" H 1750 2050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1940 1990 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 1900 2000 50  0001 C CNN
+F 4 "P1.0KDACT-ND" H 1900 2000 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.de/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1-0KDACT-ND/1465947" H 1900 2000 50  0001 C CNN "Digikey_link"
+F 6 "ERA-6AEB102V" H 1900 2000 50  0001 C CNN "Manufacturer"
+	1    1900 2000
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -22282,7 +22282,6 @@ Wire Wire Line
 	1900 1400 1950 1400
 Wire Wire Line
 	1650 1550 1900 1550
-Connection ~ 1900 1550
 Wire Wire Line
 	1050 1300 1050 1700
 Wire Wire Line
@@ -22396,52 +22395,52 @@ F 3 "" H 1700 4020 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2757 2821 2807 2821
+	2512 3321 2562 3321
 Wire Wire Line
-	2757 2821 2757 2921
-Text GLabel 2807 2821 2    39   Input ~ 0
+	2512 3321 2512 3421
+Text GLabel 2562 3321 2    39   Input ~ 0
 IO2
 Wire Wire Line
-	2757 3221 2757 3271
+	2512 3721 2512 3771
 Wire Wire Line
-	2757 3571 2757 3621
+	2512 4071 2512 4121
 $Comp
 L power:GND #PWR027
 U 1 1 5E7F7B92
-P 2757 3621
-F 0 "#PWR027" H 2757 3371 50  0001 C CNN
-F 1 "GND" H 2762 3448 50  0000 C CNN
-F 2 "" H 2757 3621 50  0001 C CNN
-F 3 "" H 2757 3621 50  0001 C CNN
-	1    2757 3621
+P 2512 4121
+F 0 "#PWR027" H 2512 3871 50  0001 C CNN
+F 1 "GND" H 2517 3948 50  0000 C CNN
+F 2 "" H 2512 4121 50  0001 C CNN
+F 3 "" H 2512 4121 50  0001 C CNN
+	1    2512 4121
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R8
 U 1 1 5E7F7356
-P 2757 3421
-F 0 "R8" H 2825 3467 50  0000 L CNN
-F 1 "1K" H 2825 3376 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2797 3411 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 2757 3421 50  0001 C CNN
-F 4 "P1.0KDACT-ND" H 2757 3421 50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.de/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1-0KDACT-ND/1465947" H 2757 3421 50  0001 C CNN "Digikey_link"
-F 6 "ERA-6AEB102V" H 2757 3421 50  0001 C CNN "Manufacturer"
-	1    2757 3421
+P 2512 3921
+F 0 "R8" H 2580 3967 50  0000 L CNN
+F 1 "1K" H 2580 3876 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2552 3911 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 2512 3921 50  0001 C CNN
+F 4 "P1.0KDACT-ND" H 2512 3921 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.de/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1-0KDACT-ND/1465947" H 2512 3921 50  0001 C CNN "Digikey_link"
+F 6 "ERA-6AEB102V" H 2512 3921 50  0001 C CNN "Manufacturer"
+	1    2512 3921
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D5
 U 1 1 5E7F71E2
-P 2757 3071
-F 0 "D5" V 2807 3221 50  0000 L CNN
-F 1 "Blue" V 2707 3171 50  0000 L CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2757 3071 50  0001 C CNN
-F 3 "https://katalog.we-online.de/led/datasheet/150080BS75000.pdf" H 2757 3071 50  0001 C CNN
-F 4 "732-4982-1-ND" H 2757 3071 50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.de/product-detail/en/w%C3%BCrth-elektronik/150080BS75000/732-4982-1-ND/4489910" H 2757 3071 50  0001 C CNN "Digikey_link"
-F 6 "150080BS75000" H 2757 3071 50  0001 C CNN "Manufacturer"
-	1    2757 3071
+P 2512 3571
+F 0 "D5" V 2562 3721 50  0000 L CNN
+F 1 "Blue" V 2462 3671 50  0000 L CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2512 3571 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150080BS75000.pdf" H 2512 3571 50  0001 C CNN
+F 4 "732-4982-1-ND" H 2512 3571 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.de/product-detail/en/w%C3%BCrth-elektronik/150080BS75000/732-4982-1-ND/4489910" H 2512 3571 50  0001 C CNN "Digikey_link"
+F 6 "150080BS75000" H 2512 3571 50  0001 C CNN "Manufacturer"
+	1    2512 3571
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -22853,4 +22852,5 @@ Wire Notes Line
 	8995 5405 8995 6315
 Wire Notes Line
 	6820 5263 6820 6504
+Connection ~ 1900 1550
 $EndSCHEMATC
