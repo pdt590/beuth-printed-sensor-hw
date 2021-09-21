@@ -19,6 +19,5 @@ Front                              |  Edge
 ## Compatibility
 
 - [beuth-printed-sensor-fw](https://github.com/pdt590/beuth-printed-sensor-fw)
-- [beuth-printed-gateway](https://github.com/pdt590/beuth-printed-gateway)
 - [beuth-printed-app](https://github.com/pdt590/beuth-printed-app)
 - [beuth-printed-cloud](https://github.com/pdt590/beuth-printed-cloud)
