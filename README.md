@@ -8,7 +8,7 @@ Front                              |  Edge
 :---------------------------------:|:--------------------------------------:
 ![front](photos/device-front.jpg)  | ![edge](photos/device-edge.jpg)
 
-- Readout Device with PrintED sensor
+- Readout Device with PrintED Sensor
 
 ![sensor](photos/device-printed-sensor.jpg)
 
